@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="../main.css">
+	<script type="text/javascript" src="../jquery-2.0.3.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("label:has(:checked)").css("background-color", "Lime");
+		});
+	</script>
+</head>
+<body>
+	<p>性別：
+		<label><input type="radio" name="gender" value="m">男性</label>
+		<label><input type="radio" name="gender" value="f" checked="checked">女性</label>
+	</p>
+</body>
+</html>
